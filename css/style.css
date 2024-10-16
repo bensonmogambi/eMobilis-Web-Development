@@ -189,7 +189,7 @@ h1{
     height: 200px;
 }
 
-/*CONTACT UA*/
+/*CONTACT US*/
 .contact-container{
     display: flex;
     flex-direction: column;
@@ -204,6 +204,9 @@ h1{
     border-radius: 8px;
     max-width: 600px;
     width: 100%;
+
+
+
 }
 .contact-details h2{
     margin-top: 0;
@@ -218,6 +221,51 @@ iframe{
     width: 100%;
     margin-bottom: 20px;
     border-radius: 8px;
+}
+
+.form2-container{
+    width: 470px;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+
+
+
+
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form2-group{
+    margin-bottom: 20px;
+}
+.form2-group label{
+    display: block;
+    font-weight: 400;
+    color: #666;
+}
+.form2-group input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.form2-group button{
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px ;
+    cursor: pointer;
 }
 
 
