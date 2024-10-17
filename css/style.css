@@ -1,0 +1,290 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center; /*changed to the centre*/
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    padding: 20px;
+    margin: 0;/*changed to the centre*/
+}
+
+nav ul li{
+    margin-right: 60px;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+/*!*hero section*! to identify a class on style.css you put a . in the front of the class name*/
+.hero-image{
+    background-image: url("https://cdn.pixabay.com/photo/2024/04/10/00/46/hospital-8687007_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    position: relative;
+
+}
+.hero-text{
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+
+}
+
+.hero-text h1{
+    font-size: 40px;
+    margin: 0;
+}
+
+.hero-text p{
+    font-size: 22px;
+
+}
+/*use # to identify an id*/
+#cta-button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/*facilities*/
+.Gallery{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.Gallery img{
+    width: 30%;
+    border-radius: 8px;
+    height: 40vh;
+}
+
+/*SIGN UP STYLES*/
+
+.main-container{
+    display: flex;
+    padding: 25px;
+    gap: 100px;
+
+}
+
+.form-container{
+    width: 470px;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group label{
+    display: block;
+    font-weight: 400;
+    color: #666;
+}
+.form-group input,
+.form-group select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.form-group button{
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px ;
+    cursor: pointer;
+}
+.radio-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/*TABLE STYLES*/
+.table-container{
+    width: 500px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+table{
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid black;
+}
+th, td{
+    padding: 12px;
+    text-align: left;
+}
+
+/*Gallery*/
+h1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 40px;
+
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery-item{
+    width: 400px;
+    background-color: #666;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.gallery-item iframe{
+    width: 100%;
+    height: 200px;
+}
+
+/*CONTACT US*/
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.contact-details{
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+
+
+
+}
+.contact-details h2{
+    margin-top: 0;
+    font-family: Arial, sans-serif;
+
+}
+.contact-details p{
+    margin: 5px 0;
+}
+iframe{
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.form2-container{
+    width: 470px;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+
+
+
+
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form2-group{
+    margin-bottom: 20px;
+}
+.form2-group label{
+    display: block;
+    font-weight: 400;
+    color: #666;
+}
+.form2-group input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.form2-group button{
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px ;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
