@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+
+
+</head>
+<body>
+<!-- THIS IS HOW WE CAN CREARE BUTTONS USING BOOTSTRAP BY JUST CALLING A CLASS-->
+<!--<button class="btn btn-primary">Register</button>
+<button class="btn btn-success">SUCCESS</button>-->
+
+
+<div class="row" > <!-- Here we are creating a row from left to right......md for medium sized screens-->
+  <div class="col-md-6">
+    <div class="form-container">
+    <h2>Register Form</h2>
+    <form action="">
+      <div class="form-group">
+        <label for="name">Full Name <i class="fa-solid fa-pen-to-square"></i></label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email <i class="fa-solid fa-envelope"></i></label>
+        <input type="text" id="email"  name="email" required>
+      </div>
+      <div class="form-group">
+        <label>Gender</label>
+        <div class="radio-group">
+          <label><input type="radio" name="gender" value="male" required >Male <i class="fa-solid fa-person"></i></label>
+          <label><input type="radio" name="gender" value="female" required >Female <i class="fa-solid fa-person-dress"></i></label>
+          <label><input type="radio" name="gender" value="other" required >Other</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="county">County <i class="fa-solid fa-location-dot"></i></i></label>
+        <select name="county" id="county">
+          <option value="Nairobi">Nairobi</option>
+          <option value="Kisumu">Kisumu</option>
+          <option value="Mombasa">Mombasa</option>
+          <option value="Eldoret">Eldoret</option>
+          <option value="Kisii">Kisii</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="password">Password <i class="fa-solid fa-unlock-keyhole"></i></label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <label for="Confirm-Password">Confirm Password <i class="fa-solid fa-lock-open"></i></label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+      </div>
+      <div class="form-group">
+        <button type="submit">Register <i class="fa-solid fa-user-plus"></i></button>
+      </div>
+    </form>
+
+    <div class="note">Already have an acc? <a href="">LogIn here <i class="fa-solid fa-right-to-bracket"></i></a></div>
+  </div>
+
+  </div>
+
+  <div class="col-md-6">
+
+    <div class="table-container">
+    <h2>Table with Registered Users</h2>
+    <table>
+      <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>County</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Jon Doe</td>
+        <td>doe@gmail.com</td>
+        <td>Other</td>
+        <td>Kisii</td>
+      </tr>
+      <tr>
+        <td>Ann Nga</td>
+        <td>ann@gmail.com</td>
+        <td>Female</td>
+        <td>Mombasa</td>
+      </tr>
+       <tr>
+        <td>Peter p</td>
+        <td>p@gmail.com</td>
+        <td>Male</td>
+        <td>Nairobi</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+  </div>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="css/bootstrap/js/bootstrap.min.js" ></script>
+</body>
+</html>
